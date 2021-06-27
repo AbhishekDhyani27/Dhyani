@@ -1,0 +1,214 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f1f1f1;
+}
+.logo{
+    float: left;
+  color:white;
+  text-align: left;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 25px;
+  border-radius: 2px
+}
+nav{
+    background-color: black;
+    height: 70px;
+    width: 100%;
+}
+ul{
+    float: left;
+    margin-left: 5%;
+}
+.socialtop{
+    float: right;
+    margin-right: 5%;
+}
+ul li{
+    margin: 0%;
+    padding: 0%;
+    position: relative;
+    display: inline-block;
+}
+ul li a{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 50px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 20px;
+}
+nav ul li a:hover{
+    color: red;
+}
+nav ul li .active{
+    color: red;
+}
+.top-social{
+    padding: 14px 15px;
+    font-size: 25px;
+}
+.top-social a{
+    padding: 13px;
+    color: white;
+}
+.top-social a:hover{
+    color: yellow
+}
+h2{
+    text-align: center;
+    color:black;
+    margin-top: 0px;
+    padding-top: 1in;
+    font-size: 50px;
+    background-color: rgb(34, 0, 78);
+}
+.description-container
+{
+    max-width: 800px;
+    margin: 20px auto 20px;
+}
+.description-container .floating-image
+{
+    max-width: 400px;
+}
+.description-container .floating-image.right
+{
+    float: right;
+    margin-left: 30px;
+}
+.description-container .floating-image.right
+{
+    float: right;
+    margin-left: 30px;
+    padding: 2px;
+}
+.description-container .floating-image.right{
+    margin-bottom: 30px;
+}
+h3{
+    text-align: center;
+    color: black;
+    margin-top: 30px;
+    padding-top: 2in;
+    font-size: 50px;
+}
+.centerdiv{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 10vh;
+}
+.centerdiv a{
+    width: 80px;
+    border-radius: 50px;
+    background-color: #f5f5fa;
+    text-align: center;
+    margin: 10px;
+    box-shadow: 1px 4px 2px 2px #dcdde1;
+    line-height: 50px;
+}
+.centerdiv a i{
+     transition: all 0.3s linear;
+}
+.centerdiv a:hover i{
+    transform: scale(1.2);
+}
+.fa-instagram{
+    color: #e84393;
+}
+.fa-youtube{
+    color: #e84118;
+}
+.fa-facebook{
+    color: #4267B2;
+}
+#divLeft{
+    width: 50%;
+    float: left;
+    padding: 10px;
+    margin-top: 3inch;
+}
+#divRight{
+    width: 50%;
+    float: left;
+    padding: 10px;
+    margin-top: 3inch;
+}
+body{
+    background: linear-gradient(90deg,yellow 50%,palevioletred 50%);
+}
+#div1 {
+    background: grey;
+}
+h5{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: black;
+}
+.centerdiv1{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 10vh;
+    bottom: 0px;
+}
+footer{
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    background: black;
+}
+.main-content{
+    display: flex;
+    color: #d9d9d9;
+}
+.main-content .box{
+    flex-basis: 50%;
+    padding: 10px 20px;
+}
+.box h4{
+    font-size: 1.125rem;
+    font-weight: 600;
+    height: 40px;
+    text-align: left;
+    font-size: 18px;
+    border-radius: 5px;
+
+}
+.box .content{
+    margin: 20px 0 0 0;
+}
+.center .content span{
+    height: 40px;
+    width: 40px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.main-content .right{
+    height: 40px;
+    width: 40px;
+    line-height: 20px;
+    text-align: right;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.right a{
+    transition: 0.3s;
+    color: white;
+}
+.right a:hover{
+    background: red;
+}
+.main{
+    scroll-behavior: smooth;
+}
